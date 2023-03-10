@@ -1,6 +1,6 @@
 import requests
 
-_url = 'https://<SERVER_URL_HERE>:8085/api/v3/XYZ'
+_url = 'http://<SERVER_URL_HERE>:8085/api/v3/XYZ'
 
 _headers = {
     'accept': 'application/json',
