@@ -1,2 +1,4 @@
 # Ignore the following folders
 /login_data/
+/fortinet/private_variables.py
+/fortinet/private/
