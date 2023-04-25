@@ -1,4 +1,4 @@
 # Ignore the following folders
-/*/__pycache__
-/*/_login_data.py
-/*/private/
+__pycache__
+login_data.py
+/private/
