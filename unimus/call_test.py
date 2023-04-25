@@ -1,18 +1,31 @@
+
+###
+### Just a simple short API call for Unimus.
+### For more info, check Unimus' Swagger: https://download.unimus.net/api-v3-preview/
+###
+
+
 import requests
 
-_url = 'http://<SERVER_URL_HERE>:8085/api/v3/XYZ'
+url = 'http://<SERVER_URL_HERE>:8085/api/v3/XYZ'
+token = "<TOKEN HERE>"
 
-_headers = {
+headers = {
     'accept': 'application/json',
-    'Authorization': 'Bearer <TOKEN>',
+    'Authorization': 'Bearer ' + token,
 }
 
-_params = {
+parameters = {
     'jobType': 'PUSH',
 }
 
-response = requests.get(_url, params=_params, headers=_headers)
-print()
+response = requests.get(
+    verify = False, # Set to True or False depending on your situation.
+    url = url,
+    params = parameters,
+    headers=headers
+)
 
+print()
 print(response)
 print(response.json())
