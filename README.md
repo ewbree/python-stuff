@@ -14,4 +14,4 @@ I will be putting here:
 - ArubaOS-Switch scripts.
 - Fortinet REST API
   - Session-based
-  - Token-based
+  ~~- Token-based~~ (Not for now)
