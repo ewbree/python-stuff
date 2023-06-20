@@ -10,8 +10,8 @@ Some stuf might be interesting for people to use here, who knows.
 Not all REST api's are actually really REST as many are not stateless but alas...
 I will be putting here:
 
-- Unimus scripts to interact with the REST API.
-- ArubaOS-Switch scripts.
+- Unimus scripts to interact with the REST API
+- ArubaOS-Switch scripts
 - Fortinet REST API
   - Session-based
   - ~~Token-based~~ (Not for now)
