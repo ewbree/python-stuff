@@ -50,4 +50,4 @@ def admin_logout(host:list,cookie:dict) -> str:
     )
 
     ### Response code is always 200. Regardless of cookies.
-    print ("\nResponse: " + str(response.status_code))
+    print ("\nLogged out! Response: " + str(response.status_code))
